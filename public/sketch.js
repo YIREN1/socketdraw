@@ -3,7 +3,7 @@ let socket;
 function setup() {
   createCanvas(windowWidth,windowHeight);
   background(0, 50);
-  socket = io.connect('http://localhost:3001/');
+  socket = io();
   const r = random(75, 200);
   const g = random(75, 200);
   const b = random(75, 200);
