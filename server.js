@@ -20,4 +20,4 @@ io.sockets.on('connection', (socket) => {
 });
 
 app.use(express.static('public'));
-console.log('server is running');
+console.log(`server is running at ${port}`);
